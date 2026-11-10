@@ -1,0 +1,1 @@
+{'output': 'cat task-dir/search_0005/workspace/kb/*.md | grep -i "sergei garcia" -A 10', 'result_type': 'answer'}

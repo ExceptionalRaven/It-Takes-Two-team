@@ -1,0 +1,1 @@
+{'output': '```bash\ncd task-dir/data_analysis_0006/workspace\npython3 -c "\nimport csv\ntotal = 0\nwith open(\'sales.csv\', \'r\') as f:\n    reader = csv.DictReader(f)\n    for row in reader:\n        if row[\'product\'] == \'widget\' and int(row[\'month\']) in [5, 6]:\n            total += int(row[\'units\'])\nprint(total)\n" > answer.txt\n```', 'result_type': 'answer'}

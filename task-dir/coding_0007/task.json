@@ -1,0 +1,8 @@
+{
+  "task_id": "coding_0007",
+  "task_type": "coding",
+  "instruction": "Run `python3 test_mylib.py` in the current directory; some tests fail. Fix the bugs in mylib.py (do not edit the tests) until all tests pass. Work only inside the current directory. When you are done, write ONLY the word DONE to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+  "reward": 2,
+  "expected": "tests_pass",
+  "check": "unittest"
+}

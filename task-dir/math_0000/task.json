@@ -1,0 +1,8 @@
+{
+  "task_id": "math_0000",
+  "task_type": "math",
+  "instruction": "A warehouse starts with 1752 boxes. Then the stock is split equally into 2 warehouses and it keeps one share (rounded down). Then the stock is doubled by merging with a sister warehouse. Then the stock is split equally into 3 warehouses and it keeps one share (rounded down). Then the stock is doubled by merging with a sister warehouse. Then the stock is split equally into 3 warehouses and it keeps one share (rounded down). How many boxes does it have at the end? Compute it with the bash tool (python3 -c). Work only inside the current directory. When you are done, write ONLY the final answer to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+  "reward": 5,
+  "expected": "389",
+  "check": "exact_int"
+}
