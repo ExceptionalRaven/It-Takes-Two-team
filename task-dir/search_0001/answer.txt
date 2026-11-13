@@ -1,1 +1,1 @@
-{'output': 'echo 1985 > answer.txt', 'result_type': 'answer'}
+1983

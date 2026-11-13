@@ -1,7 +1,7 @@
 def maximum(xs):
     best = xs[0]
     for x in xs:
-        if x < best:
+        if x > best:
             best = x
     return best
 
@@ -18,4 +18,4 @@ def reverse_words(s):
 
 
 def count_even(xs):
-    return sum(1 for x in xs if x % 2 == 1)
+    return sum(1 for x in xs if x % 2 == 0)

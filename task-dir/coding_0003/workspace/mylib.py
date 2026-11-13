@@ -1,11 +1,11 @@
 def reverse_words(s):
-    return ' '.join(sorted(s.split()))
+    return ' '.join(reversed(s.split()))
 
 
 def total(xs):
     s = 0
     for x in xs:
-        s -= x
+        s += x
     return s
 
 
